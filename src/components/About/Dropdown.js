@@ -1,5 +1,6 @@
 import React from 'react';
 import downArrow from '../../assets/imgs/ArrowDown.svg';
+import upArrow from '../../assets/imgs/ArrowUp.svg';
 import { useState } from 'react';
 
 const Dropdown = ({ title, content }) => {
@@ -8,7 +9,7 @@ const Dropdown = ({ title, content }) => {
             <div>
                   <div onClick={() => setIsOpen(false)} className="dropContainer">
                         <h1>{title}</h1>
-                        <img src={downArrow} alt="flèche - ouvrir le menu" className="downArrow" />
+                        <img src={upArrow} alt="flèche - ouvrir le menu" className="downArrow" />
                   </div>
                   <div className="contentContainer">
                         <p>{content}</p>
