@@ -1,0 +1,25 @@
+.errorConatiner{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.errorH1{
+    color: #FF6060;
+    font-size: 15rem;
+    margin: 0;
+}
+
+.errorP{
+    color: #FF6060;
+    font-size: 2em;
+}
+
+.errorLink{
+    color: #FF6060;
+    font-size: 1em;
+    margin-top: 200px;
+    text-decoration: underline;
+}
