@@ -5,10 +5,11 @@ ul {
       padding: 0;
 }
 
-a {
+ul a {
       text-decoration: none;
       padding: 10px;
       margin-left: 20px;
+      font-weight: 500;
 }
 
 li {

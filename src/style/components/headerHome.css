@@ -1,4 +1,8 @@
 .headerHome {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 200px;
       background-color: red;
       text-align: center;
       color: white;
@@ -7,6 +11,8 @@
       border-radius: 25px;
       background-image: url(../../assets/imgs/IMG.webp);
       background-image: linear-gradient(to left, rgba(202, 202, 202, 0), rgba(136, 136, 136, 0.582)), url(../../assets/imgs/IMG.webp);
+      background-repeat: no-repeat;
+      background-size: cover;
 }
 
 .headerHome h1 {

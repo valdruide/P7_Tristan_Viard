@@ -5,7 +5,7 @@ const Navigation = () => {
       return (
             <div className="navigation">
                   <div className="logo">
-                        <img src="./LOGO.svg" alt="Logo Kasa" className='logoImg'/>
+                        <img src="../LOGO.svg" alt="Logo Kasa" className="logoImg" />
                   </div>
                   <ul>
                         <NavLink to="/" className={(nav) => (nav.isActive ? 'navActive' : '')}>

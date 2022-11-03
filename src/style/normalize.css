@@ -23,8 +23,8 @@ html {
    */
 
 body {
-      margin-left: 80px;
-      margin-right: 80px;
+      margin-left: 180px;
+      margin-right: 180px;
 }
 
 /**
@@ -44,7 +44,9 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+a,
+p {
       font-family: 'Montserrat', sans-serif;
 }
 
@@ -86,6 +88,7 @@ pre {
 
 a {
       background-color: transparent;
+      text-decoration: none;
 }
 
 /**
