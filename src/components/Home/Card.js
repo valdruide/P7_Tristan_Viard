@@ -1,8 +1,7 @@
 import React from 'react';
-import data from '../assets/data/data.json';
-import ApartmentCard from './Apartement/AppartmentCard';
+import data from '../../assets/data/data.json';
+import ApartmentCard from '../Apartement/AppartmentCard';
 import { Link } from 'react-router-dom';
-
 
 const card = () => {
       return (
@@ -21,6 +20,5 @@ const card = () => {
             </div>
       );
 };
-
 
 export default card;

@@ -1,9 +1,9 @@
 import React from 'react';
-import Navigation from '../components/Navigation';
-import '../style/index.css'
+import Navigation from '../../components/Navigation';
+import '../../style/index.css';
 import { useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import data from '../assets/data/data.json';
+import data from '../../assets/data/data.json';
 
 const Appartement = () => {
       // Pourquoi entre accolades ?

@@ -23,8 +23,7 @@ html {
    */
 
 body {
-      margin-left: 180px;
-      margin-right: 180px;
+      margin: 0;
 }
 
 /**
@@ -33,6 +32,13 @@ body {
 
 main {
       display: block;
+      margin-left: 180px;
+      margin-right: 180px;
+}
+
+header {
+      margin-left: 180px;
+      margin-right: 180px;
 }
 
 /**

@@ -21,6 +21,8 @@ li {
 .navigation {
       display: flex;
       margin: 20px;
+      margin-left: 180px;
+      margin-right: 180px;
       justify-content: space-between;
       align-items: center;
 }
@@ -56,5 +58,24 @@ li {
 @-webkit-keyframes anim {
       to {
             width: 100%;
+      }
+}
+
+@media screen and (max-width: 767px) {
+      .logo {
+            width: 40%;
+      }
+      ul {
+            margin: 0;
+      }
+      ul a {
+            margin-left: 5px;
+            padding: 5px;
+            font-size: 0.9em;
+      }
+      .navigation {
+            margin: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
       }
 }

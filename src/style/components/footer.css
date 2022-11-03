@@ -1,0 +1,28 @@
+footer {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      background-color: black;
+      color: white;
+      margin-top: 100px;
+      height: 30vh;
+      width: 100%;
+      font-size: 1.2em;
+}
+
+footer img {
+      width: 10%;
+      margin-top: 100px;
+}
+
+@media screen and (max-width: 767px) {
+      footer {
+            justify-content: center;
+      }
+
+      footer img {
+            margin-top: 0;
+            width: 40%;
+      }
+}

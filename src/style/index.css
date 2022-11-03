@@ -1,5 +1,10 @@
 @import './normalize.css';
 @import './components/navigation.css';
-@import './components/headerHome.css';
-@import './components/card.css';
+@import '../pages/Home/headerHome.css';
+@import '../pages/About/headerAbout.css';
+@import '../pages/About/drop.css';
+@import '../pages/Home/card.css';
 @import './components/error.css';
+@import './components/footer.css';
+
+@import './responsive.css';

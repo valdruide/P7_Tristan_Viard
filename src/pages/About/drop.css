@@ -1,0 +1,55 @@
+.dropContainer {
+      display: flex;
+      position: relative;
+      margin-right: 160px;
+      margin-left: 160px;
+      margin-top: 50px;
+      background-color: #ff6060;
+      color: white;
+      border-radius: 10px;
+      padding-left: 20px;
+      padding: 8px 20px 8px 20px;
+      justify-content: space-between;
+}
+
+.dropContainer h1 {
+      font-weight: 400;
+      margin: 0;
+      font-size: 24px;
+}
+
+.contentContainer {
+      background-color: #f6f6f6;
+      margin-top: -10px;
+      margin-right: 160px;
+      margin-left: 160px;
+      padding: 25px 40px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+}
+
+.contentContainer p {
+      color: #ff6060;
+}
+
+.dropContainer:hover {
+      cursor: pointer;
+}
+
+.downArrow:hover {
+      cursor: pointer;
+}
+
+
+@media screen and (max-width: 767px) {
+      .dropContainer{
+            margin-left: 0px;
+            margin-right: 0px;
+      }
+
+      .contentContainer{
+            margin-left: 0px;
+            margin-right: 0px;
+            padding: 25px 20px;
+      }
+}
