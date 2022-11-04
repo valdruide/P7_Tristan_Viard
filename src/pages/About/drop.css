@@ -27,7 +27,7 @@
       border-bottom-left-radius: 10px;
       border-bottom-right-radius: 10px;
       height: 0px;
-      animation: display 0.4s forwards;
+      animation: display 0.3s ease-out forwards;
 }
 
 @keyframes display {

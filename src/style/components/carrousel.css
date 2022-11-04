@@ -1,0 +1,48 @@
+.carrouselContainer {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.mainImg {
+      object-fit: cover;
+      border-radius: 10px;
+      width: 90vw;
+      height: 700px;
+      display: block;
+      max-width: 1500px;
+}
+
+.image {
+      opacity: 0;
+}
+
+.active {
+      opacity: 1;
+}
+
+.imgNumber {
+      font-size: 2rem;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      right: 50%;
+      color: white;
+}
+
+.prevArrow {
+      position: absolute;
+      top: 50%;
+      left: 50px;
+      z-index: 10;
+      cursor: pointer;
+}
+
+.nextArrow {
+      position: absolute;
+      top: 50%;
+      right: 50px;
+      z-index: 10;
+      cursor: pointer;
+}

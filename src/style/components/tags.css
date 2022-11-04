@@ -1,0 +1,18 @@
+
+.tagsContainer{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.tag{
+    border-radius: 15px;
+    background-color: #FF6060;
+    padding: 7px 15px;
+    color: white;
+    margin-left: 5px;
+}
+
+.tag p{
+    margin: 0;
+}

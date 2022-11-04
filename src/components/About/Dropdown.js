@@ -9,7 +9,7 @@ const Dropdown = ({ title, content }) => {
             <div>
                   <div onClick={() => setIsOpen(false)} className="dropContainer">
                         <h1>{title}</h1>
-                        <img src={upArrow} alt="flèche - ouvrir le menu" className="downArrow" />
+                        <img src={upArrow} alt="flèche - fermer le menu" className="downArrow" />
                   </div>
                   <div className="contentContainer">
                         <p>{content}</p>

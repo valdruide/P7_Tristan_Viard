@@ -6,5 +6,7 @@
 @import '../pages/Home/card.css';
 @import './components/error.css';
 @import './components/footer.css';
+@import './components/carrousel.css';
+@import './components/tags.css';
 
 @import './responsive.css';
