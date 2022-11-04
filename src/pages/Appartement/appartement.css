@@ -1,4 +1,9 @@
-.info {
+.mainBody {
       margin-top: 50px;
-      color: #FF6060;
+      display: flex;
+      justify-content: space-between;
+}
+
+.info {
+      color: #ff6060;
 }

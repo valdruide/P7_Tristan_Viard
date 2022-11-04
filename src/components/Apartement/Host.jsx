@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import data from '../../assets/data/data.json';
 
-const Tags = () => {
+const Host = () => {
       const { productId } = useParams();
       const [apt, setApt] = useState([]);
 
@@ -15,18 +15,12 @@ const Tags = () => {
             const apartment = data.find((apartment) => apartment.id === productId);
             setApt(apartment);
       }
-
       return (
-            <div className="tagsContainer">
-                  {apt.tags?.map((tag, index) => {
-                        return (
-                              <div className="tag" key={index}>
-                                    <p key={index}>{tag}</p>
-                              </div>
-                        );
-                  })}
+            <div className="hostContainer">
+                  <p>{apt.host?.name}</p>
+                  <img src={apt.host?.picture} alt="propriétaire" />
             </div>
       );
 };
 
-export default Tags;
+export default Host;

@@ -8,5 +8,7 @@
 @import './components/footer.css';
 @import './components/carrousel.css';
 @import './components/tags.css';
+@import './components/host.css';
+@import './components/stars.css';
 
 @import './responsive.css';
