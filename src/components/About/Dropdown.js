@@ -6,7 +6,7 @@ import { useState } from 'react';
 const Dropdown = ({ title, content }) => {
       const [isOpen, setIsOpen] = useState(false);
       return isOpen ? (
-            <div>
+            <div className="mainDrop">
                   <div onClick={() => setIsOpen(false)} className="dropContainer">
                         <h1>{title}</h1>
                         <img src={upArrow} alt="flèche - fermer le menu" className="downArrow" />
@@ -16,7 +16,7 @@ const Dropdown = ({ title, content }) => {
                   </div>
             </div>
       ) : (
-            <div>
+            <div className="mainDrop">
                   <div onClick={() => setIsOpen(true)} className="dropContainer">
                         <h1>{title}</h1>
                         <img src={downArrow} alt="flèche - ouvrir le menu" className="downArrow" />

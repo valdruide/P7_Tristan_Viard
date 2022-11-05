@@ -5,3 +5,12 @@
 .stars img {
       margin-right: 15px;
 }
+
+@media screen and (max-width: 767px) {
+      .stars {
+            text-align: left;
+      }
+      .stars img {
+            width: 25px;
+      }
+}

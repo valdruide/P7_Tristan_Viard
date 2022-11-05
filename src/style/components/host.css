@@ -16,3 +16,9 @@
       text-align: right;
       font-size: 1.4em;
 }
+
+@media screen and (max-width: 767px) {
+      .hostContainer img {
+            width: 80px;
+      }
+}

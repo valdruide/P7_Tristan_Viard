@@ -26,14 +26,11 @@
       font-size: 2rem;
       position: absolute;
       bottom: 0;
-      left: 50%;
-      right: 50%;
       color: white;
 }
 
 .prevArrow {
       position: absolute;
-      top: 50%;
       left: 50px;
       z-index: 10;
       cursor: pointer;
@@ -41,8 +38,30 @@
 
 .nextArrow {
       position: absolute;
-      top: 50%;
       right: 50px;
       z-index: 10;
       cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+      .mainImg {
+            height: 400px;
+            width: 99%;
+      }
+
+      .prevArrow,
+      .nextArrow {
+            width: 30px;
+      }
+
+      .prevArrow {
+            left: 20px;
+      }
+      .nextArrow {
+            right: 20px;
+      }
+
+      .imgNumber {
+            display: none;
+      }
 }
