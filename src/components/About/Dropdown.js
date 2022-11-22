@@ -8,7 +8,7 @@ const Dropdown = ({ title, content }) => {
       return isOpen ? (
             <div className="mainDrop">
                   <div onClick={() => setIsOpen(false)} className="dropContainer">
-                        <h1>{title}</h1>
+                        <h2>{title}</h2>
                         <img src={upArrow} alt="flèche - fermer le menu" className="downArrow" />
                   </div>
                   <div className="contentContainer">
@@ -18,7 +18,7 @@ const Dropdown = ({ title, content }) => {
       ) : (
             <div className="mainDrop">
                   <div onClick={() => setIsOpen(true)} className="dropContainer">
-                        <h1>{title}</h1>
+                        <h2>{title}</h2>
                         <img src={downArrow} alt="flèche - ouvrir le menu" className="downArrow" />
                   </div>
             </div>
