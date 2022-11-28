@@ -49,7 +49,7 @@ const Appartement = () => {
                                     title="Équipements"
                                     content={
                                           <>
-                                                {apt.equipments?.map((equip, index) => (
+                                                {apt.equipments?.map((equip, index) => ( //récupère les équipements dans le json
                                                       <span key={index} className="equip">
                                                             {equip}
                                                       </span>

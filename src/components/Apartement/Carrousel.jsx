@@ -11,10 +11,10 @@ const Carrousel = () => {
       const [current, setCurrent] = useState(0);
 
       const nextSlide = (length) => {
-            setCurrent(current === length - 1 ? 0 : current + 1);
+            setCurrent(current === length - 1 ? 0 : current + 1); //Si on est sur la dernière image (length -1), on repasse sur la premiere (0)
       };
       const prevSlide = (length) => {
-            setCurrent(current === 0 ? length - 1 : current - 1);
+            setCurrent(current === 0 ? length - 1 : current - 1); //si on est sur la première image (0), on va a la dernière (length -1)
       };
 
       useEffect(() => {
@@ -28,7 +28,7 @@ const Carrousel = () => {
 
       return (
             <div className="carrouselContainer">
-                  {apt.pictures?.length > 1 ? (
+                  {apt.pictures?.length > 1 ? ( //vérifie si il y a plus d'une image
                         <>
                               <img src={PrevArrow} alt="flèche précédente" className="prevArrow" onClick={() => prevSlide(apt.pictures.length)} />
                               <img src={NextArrow} alt="flèche suivante" className="nextArrow" onClick={() => nextSlide(apt.pictures.length)} />
@@ -36,14 +36,14 @@ const Carrousel = () => {
                   ) : (
                         ''
                   )}
-                  {apt.pictures?.map((imgSrc, index) => {
+                  {apt.pictures?.map((imgSrc, index) => { //carrousel
                         return (
-                              <div className={index === current ? 'image active' : 'image'} key={index}>
+                              <div className={index === current ? 'image active' : 'image'} key={index}> 
                                     {index === current && <img key={index} alt="logement" src={imgSrc} className="mainImg" />}
                               </div>
                         );
                   })}
-                  <p className="imgNumber">
+                  <p className="imgNumber"> 
                         {`${current + 1}`}/{`${apt.pictures?.length}`}
                   </p>
             </div>

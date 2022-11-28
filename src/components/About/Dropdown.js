@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 const Dropdown = ({ title, content }) => {
       const [isOpen, setIsOpen] = useState(false);
-      return isOpen ? (
+      return isOpen ? ( //vérifie si il est ouvert ou non, si c'est le cas, afficher le texte
             <div className="mainDrop">
                   <div onClick={() => setIsOpen(false)} className="dropContainer">
                         <h2>{title}</h2>

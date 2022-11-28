@@ -16,9 +16,9 @@ const Tags = () => {
             setApt(apartment);
       }
 
-      return (
+      return ( 
             <div className="tagsContainer">
-                  {apt.tags?.map((tag, index) => {
+                  {apt.tags?.map((tag, index) => { //récupère tous les tags de l'appartement
                         return (
                               <div className="tag" key={index}>
                                     <p key={index}>{tag}</p>
