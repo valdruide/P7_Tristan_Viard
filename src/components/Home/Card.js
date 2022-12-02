@@ -8,9 +8,10 @@ const card = () => {
             <div>
                   <main>
                         <div className="cardContainer" id="cardContainer">
-                              {data.map((apartment) => { //récupère tous les appartements dans le JSON
+                              {data.map((apartment) => {
+                                    //récupère tous les appartements dans le JSON
                                     return (
-                                          <Link to={`/apartment/${apartment.id}`} key={apartment.id} title={apartment.title}>
+                                          <Link to={`/apartment/${apartment.id}`} key={apartment.id}>
                                                 <ApartmentCard {...apartment} />
                                           </Link>
                                     );
