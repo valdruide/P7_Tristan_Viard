@@ -11,7 +11,7 @@ const card = () => {
                               {data.map((apartment) => {
                                     //récupère tous les appartements dans le JSON
                                     return (
-                                          <Link to={`/apartment/${apartment.id}`} key={apartment.id}>
+                                          <Link to={`/apartment/${apartment.id}`} key={apartment.id} className="linkCard">
                                                 <ApartmentCard {...apartment} />
                                           </Link>
                                     );
