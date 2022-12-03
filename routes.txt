@@ -1,0 +1,4 @@
+http://localhost:3000/ - Accueil
+http://localhost:3000/About - A propos
+http://localhost:3000/apartment/[ID] - Page appartement (remplacer "[ID]" par l'ID)
+http://localhost:3000/* - page 404 (remplacer "*" par n'importe quoi)
